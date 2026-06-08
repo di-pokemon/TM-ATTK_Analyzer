@@ -1,0 +1,13 @@
+{
+  "system": "Web application with login and database",
+  "components": [
+    "Frontend",
+    "Backend API",
+    "Database"
+  ],
+  "data_flow": [
+    "User -> Frontend",
+    "Frontend -> API",
+    "API -> Database"
+  ]
+}
