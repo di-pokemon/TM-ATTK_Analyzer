@@ -15,7 +15,7 @@ def run_analysis():
         system = json.load(f)
 
     threats = generate_stride_threats(system)
-    paths = build_attack_paths()
+    paths = build_attack_paths(system)
     risk = calculate_risk(threats, paths)
 
     report = {

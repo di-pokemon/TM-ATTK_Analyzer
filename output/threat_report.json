@@ -3,7 +3,7 @@
     "threats": [
         {
             "category": "Spoofing",
-            "description": "Weak authentication may allow impersonation"
+            "description": "Weak authentication may allow impersonation in Web application with login and database"
         },
         {
             "category": "Tampering",

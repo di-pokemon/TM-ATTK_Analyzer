@@ -1,6 +1,8 @@
 def generate_stride_threats(system):
+    system_name = system.get("system", "the system")
+
     threats = [
-        {"category": "Spoofing", "description": "Weak authentication may allow impersonation"},
+        {"category": "Spoofing", "description": f"Weak authentication may allow impersonation in {system_name}"},
         {"category": "Tampering", "description": "API requests may be modified in transit"},
         {"category": "Repudiation", "description": "Lack of logging prevents traceability"},
         {"category": "Information Disclosure", "description": "Sensitive data may be exposed via API"},
